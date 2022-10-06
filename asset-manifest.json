@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GitDeploy/static/css/main.ca126aeb.css",
+    "main.js": "/GitDeploy/static/js/main.ca302111.js",
+    "index.html": "/GitDeploy/index.html",
+    "main.ca126aeb.css.map": "/GitDeploy/static/css/main.ca126aeb.css.map",
+    "main.ca302111.js.map": "/GitDeploy/static/js/main.ca302111.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca126aeb.css",
+    "static/js/main.ca302111.js"
+  ]
+}
