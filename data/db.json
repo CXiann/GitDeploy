@@ -1,0 +1,14 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "course": "Machine Learning",
+      "checked": true
+    },
+    {
+      "id": 4,
+      "course": "new",
+      "checked": false
+    }
+  ]
+}

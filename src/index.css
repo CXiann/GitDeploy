@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul{
+  padding: 0;
+}
+
+.course {
+  list-style-type: none;
+  display: flex;
+  margin: 5px 80px;
+  background-color: antiquewhite;
+}
+
+.course label{
+  flex-grow: 1;
+  font-size: 0.75rem;
+  padding: 15px;
+}
+
+.course input[type='checkbox']{
+  cursor: pointer;
+  margin: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.course button{
+  cursor: pointer;
+  font-size: 0.75rem;
+  margin: 15px;
+}
+
+.course button:focus,.course button:hover{
+  color: red;
+  outline: none;
+}
+
+.addcourse{
+  display: flex;
+  margin: 5px 80px;
+}
+
+.addcourse input{
+  flex-grow: 1;
+  height: 40px;
+}
+
+.addcourse button{
+  width: 50px;
+}
+
+.searchcourse{
+  display: flex;
+  margin: 5px 80px;
+}
+
+.searchcourse input{
+  flex-grow: 1;
+  height: 40px;
+}
+
+.outerForm{
+  display: flex;
+  justify-content: center;
+}
+
+.colourForm{
+  display: flex;
+  flex-direction: column;
+}
+
+.colourForm input{
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.colourForm label{
+  text-align: center;
+  border: 2px solid #000000;
+  padding: 100px 0;
+  margin-bottom: 20px;
+}
+
+.switchTab{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.switchTab button{
+  background-color: white;
+  border-width: 1px;
+  width: 300px;
+  height: 50px;
+}
+
+.switchTab button:hover, .switchTab .selected{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-width: 1px;
+  width: 300px;
+  height: 50px;
+}
+
+.dataList {
+  margin: 0px 20px;
+}
+
+table, th, td {
+  border:1px solid black;
+}
+
